@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+      prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <HBox prefHeight="203.0" prefWidth="600.0" VBox.vgrow="ALWAYS">
+            <children>
+                <VBox prefHeight="200.0" prefWidth="100.0" style="-fx-border-color: #c1e4e9;" HBox.hgrow="ALWAYS">
+                    <children>
+                        <Label style="-fx-background-color: #f3f3f3;-fx-font-weight: bold" text="  我的边框我做主  ">
+                            <VBox.margin>
+                                <Insets left="30.0" top="-8.0"/>
+                            </VBox.margin>
+                        </Label>
+                    </children>
+                    <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" top="10.0"/>
+                    </HBox.margin>
+                </VBox>
+                <VBox prefHeight="200.0" prefWidth="100.0" HBox.hgrow="ALWAYS"/>
+            </children>
+        </HBox>
+        <VBox prefHeight="200.0" prefWidth="100.0" VBox.vgrow="ALWAYS"/>
+    </children>
+</VBox>
